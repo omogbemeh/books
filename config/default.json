@@ -1,0 +1,4 @@
+{
+    "mongodb": "mongodb+srv://praise123:praise123@cluster0.wecur.mongodb.net/bookShelf?retryWrites=true&w=majority",
+    "jwtsecret": "bookshelf"
+}
