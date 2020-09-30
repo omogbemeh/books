@@ -1,5 +1,3 @@
-import user from '../models/user';
-
 const jwt = require('jsonwebtoken');
 const config = require('config');
 const secret = config.get('jwtsecret');
@@ -16,4 +14,4 @@ const auth = (req, res, next) => {
     }
 }
 
-export default auth
+module.exports = auth
